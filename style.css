@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(banner\ PGmobile.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#um {
+    color: red;
+    margin-top: 100%;
+    text-align: center;
+}
+
+#um img {
+    width: 75%;
+}
+
+#dois {
+    color: pink;
+}
+.button {
+    margin-top: auto; /* Empurra o botão para a parte inferior */
+    margin-bottom: 40px; /* Distância do fundo (ajuste conforme necessário) */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    background: linear-gradient(10deg, #FFB525 0%, #FFF629 100%);
+    color: #0A1F04;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+a {
+    color: #0A1F04;
+    text-decoration: none;
+}
